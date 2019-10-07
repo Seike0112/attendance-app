@@ -1,6 +1,8 @@
 source 'https://rubygems.org'
 
 gem 'rails',        '~> 5.1.6'
+#パスワードを適切にハッシュ化する
+gem 'bcrypt'
 #bootstrapを追加
 gem 'bootstrap-sass'
 gem 'puma',         '~> 3.7'
